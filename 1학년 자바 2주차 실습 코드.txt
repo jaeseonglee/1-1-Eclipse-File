@@ -1,0 +1,93 @@
+2주차
+
+/*
+ * 클래스 기본 구조와 메인메서드를가지고 간단한
+ * 인사말을 출력하는 프로그램
+ * 
+ * 
+ */
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int value;
+		
+		value = 10;
+		
+		value = value + 1;
+		
+		System.out.println("계산된 값은: " + value);
+		//System.out.println( value );
+
+	}
+
+}
+
+
+
+/*
+ 개인별 주석 작성
+ */
+public class Add {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int x; // 첫 번째 정수
+        int y; // 두 번째 정수
+        int sum; // 두 정수의 합을 저장하는 변수
+        
+        x = 100;
+        y = 200;
+        sum = x + y;
+        
+        System.out.println("두 정수의 합은" + sum + "입니다.");
+        
+   
+	}
+
+}
+
+
+public class COME {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        System.out.println("학과: 컴퓨터공학과");
+        System.out.println("학번: 20165153");
+        System.out.println("이름: 이재성");
+	}
+
+}
+
+public class Come {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         System.out.println("/*******메뉴*****/");
+         System.out.println("[1] 입력");
+         System.out.println("[2] 출력");
+         System.out.println("[3] 초기화");
+         System.out.println("[4] 종료");
+         System.out.println("메뉴를 선택하세요 []");
+	}
+
+}
+
+
+/*
+ 개인별 주석 작성
+ */
+public class Keep {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		int r = 5;
+		double area = 0.0;
+		
+		area = r*r*3.14;
+		System.out.println("반지름 5를 가지는 원의 면적은" + area +"입니다.");
+		
+	}
+
+}
